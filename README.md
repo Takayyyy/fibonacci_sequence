@@ -1,1 +1,2 @@
 # fibonacchi_sequence
+繰り返し二乗法
