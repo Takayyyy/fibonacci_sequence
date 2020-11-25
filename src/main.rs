@@ -37,7 +37,7 @@ fn calc_fib(n: u64) -> u64 {
 }
 fn main() {
     loop {
-        println!("何番目のフィボナッチ数列を求めますか(F(n=0)=1,F(n=1)=1)＞");
+        println!("何番目のフィボナッチ数列を求めますか(F(n=1)=1,F(n=2)=1)＞");
         let mut fib_num = String::new();
         std::io::stdin()
             .read_line(&mut fib_num)
